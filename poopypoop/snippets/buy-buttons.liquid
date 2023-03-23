@@ -15,7 +15,7 @@
     {%- liquid
       assign gift_card_recipient_feature_active = false
       if block.settings.show_gift_card_recipient and product.gift_card?
-        assign gift_card_recipient_feature_active = true
+        assign gift_card_recipient_feature_active = false
       endif
 
       assign show_dynamic_checkout = false
